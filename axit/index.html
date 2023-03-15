@@ -52,7 +52,29 @@
 					<h2 class="main__suntitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
 					<a href="#" class="main__btn">Download</a>
 				</div>
-				<form action="" class="main__form">form</form>
+
+				<form action="#" class="main__form form-main" name="form" method="post">
+					<div class="form-main__wrapper">
+						<h2 class="form-main__title">Try Your <span>FREE</span> Trial Today</h2>
+						<div class="form-main__name form-main__input">
+							<input type="text" id="main-UserName" name="UserName">
+							<label for="main-UserName">Name</label>
+						</div>
+
+						<div class="form-main__mail form-main__input">
+							<input type="email" id="main-UserMail" name="UserName">
+							<label for="main-UserMail">Email</label>
+						</div>
+
+						<div class="form-main__pasword form-main__input">
+							<input type="password" id="main-UserPassword" name="UserName">
+							<label for="main-UserPassword">Password</label>
+						</div>
+					</div>
+
+					<button class="form-main__btn">Get Started</button>
+
+				</form>
 			</div>
 		</div>
 	</main>
@@ -311,6 +333,39 @@
 					gorgeous prototypes faster than ever!</p>
 				<a href="#" class="banner__btn">Download</a>
 			</div>
+		</div>
+	</section>
+
+	<section class="contacts">
+		<div class="container">
+			<h2 class="contacts__title section__title">contact us</h2>
+			<p class="contacts__subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<form action="#" class="contacts__form form-contacts" method="post">
+				<div class="form-contacts__body">
+					<div class="form-contacts__info">
+
+						<div class="form-contacts__name form-contacts__input">
+							<label for="form-contacts__UserName"></label>
+							<input type="text" id="form-contacts__UserName" placeholder="Name">
+						</div>
+
+						<div class="form-contacts__email form-contacts__input">
+							<label for="form-contacts__UserEmail"></label>
+							<input type="Email" id="form-contacts__UserEmail" placeholder="Email">
+						</div>
+
+						<div class="form-contacts__password form-contacts__input">
+							<label for="form-contacts__UserPassword"></label>
+							<input type="Password" id="form-contacts__UserPassword" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-contacts__textarea">
+						<label for="form-contacts__Message"></label>
+						<textarea name="Message" id="form-contacts__Message" placeholder="Message"></textarea>
+					</div>
+				</div>
+				<button class="form-contacts__btn">Send Message</button>
+			</form>
 		</div>
 	</section>
 
