@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	max-width: 725px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.form__title{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	display: flex;
+	align-items: center;
+	color: #424242;
+	margin-bottom: 32px;
+}
+
+input, select, textarea{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 16px 0;
+	padding-left: 25px;
+	border: 1px solid #BDBDBD;
+	border-radius: 83px;
+	color: black;
+	outline: none;
+	margin-bottom: 24px;
+	margin-right: 16px;
+}
+input ::placeholder{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #BDBDBD;
+}
+
+.form__input-city input, .form__select-post select{
+	width: 100%;
+	max-width: 520px;
+}
+.form__select-post{
+	position: relative;
+}
+.form__select-post select{
+	appearance: none;
+	background-image: url('../img/Vector.svg');
+	background-repeat: no-repeat;
+	background-position: center right 20px;
+	background-size: 18px 8px;
+}
+.form__select-post option{
+	background-color: #42424243;
+	border-radius: 10px;
+}
+.form__row{
+	display: flex;
+}
+.form__street input{
+	width: 255px;
+}
+.form__house input, .form__apartment input, .form__index input{
+	width: 130px;
+}
+.form__textare textarea{
+	width: 100%;
+	resize: none;
+	padding-bottom: 0;
+	padding-right: 10px;
+}
+.form__name input, .form__surname input, .form__patronymic input, .form__phone input{
+	width: 220px;
+}
+.form__phone{
+	display: flex;
+	flex-direction: column;
+}
+.form__phone label{
+	font-weight: 400;
+	font-size: 12px;
+	color: #424242;
+	margin-top: -16px;
+	margin-bottom: 30px;
+}
+.form__email{
+	display: flex;
+	flex-direction: column;
+}
+.form__email input{
+	width: 456px;
+}
+.form__email label{
+	font-weight: 400;
+	font-size: 12px;
+	color: #424242;
+	margin-top: -16px;
+	margin-bottom: 30px;
+}
+
+.form__checkbox{
+	position: relative;
+	margin-bottom: 70px;
+}
+.form__checkbox input{
+	position: absolute;
+	opacity: 0;
+}
+.form__checkbox label{
+	position: relative;
+	margin-left: 46px;
+	transition: all 0.3s;
+}
+.form__checkbox label::after{
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: -46px;
+	width: 30px;
+	height: 30px;
+	border: 2px solid rgba(207, 165, 165, 1);
+	border-radius: 6px;
+}
+.form__checkbox input:checked + label::after{
+	background-image: url('../img/checkbox.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 16px;
+
+}
+
+.form__radio input{
+	opacity: 0;
+}
+.form__radio label{
+	position: relative;
+}
+.form__radio label::before{
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: -45px;
+	width: 31px;
+	height: 31px;
+	border: 2px solid rgba(207, 165, 165, 1);
+	border-radius: 50%;
+}
+.form__radio input:checked + label::after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: -37px;
+	width: 19px;
+	height: 19px;
+	background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+	border-radius: 50%;
+}

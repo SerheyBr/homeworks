@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>form_2</title>
+</head>
+
+<body>
+
+	<section class="payment">
+		<div class="container">
+			<form action="#" class="payment__form form" method="post">
+				<h2 class="form__title">Способ получения</h2>
+				<div class="form__input-city form__input">
+					<input type="text" id="form-city" name="city" placeholder="город">
+					<label for="form-city"></label>
+				</div>
+				<div class="form__select-post">
+					<select name="post" id="form-post">
+						<option value="value-1">Почта России</option>
+						<option value="value-2">Почта России</option>
+						<option value="value-3">Почта России</option>
+						<option value="value-4">Почта России</option>
+						<option value="value-5">Почта России</option>
+					</select>
+				</div>
+
+				<div class="form__row">
+					<div class="form__street">
+						<input type="text" id="form-street" name="street" placeholder="Улица">
+						<label for="form-street"></label>
+					</div>
+
+					<div class="form__house">
+						<input type="text" id="form-house" name="house" placeholder="Дом">
+						<label for="form-house"></label>
+					</div>
+
+					<div class="form__apartment">
+						<input type="text" id="form-apartment" name="apartment" placeholder="Квартира">
+						<label for="form-apartment"></label>
+					</div>
+
+					<div class="form__index">
+						<input type="text" id="form-index" name="index" placeholder="индекс">
+						<label for="form-index"></label>
+					</div>
+
+				</div>
+
+				<div class="form__textare">
+					<textarea name="comment" id="form-textare" placeholder="Добавить комментарий"></textarea>
+					<label for="form-textare"></label>
+				</div>
+
+				<h2 class="form__title">Данные получателя</h2>
+
+				<div class="form__row">
+					<div class="form__surname">
+						<input type="text" id="form-surname" name="surname" placeholder="Фамилия">
+						<label for="form-surname"></label>
+					</div>
+
+					<div class="form__name">
+						<input type="text" id="form-name" name="name" placeholder="Имя">
+						<label for="form-name"></label>
+					</div>
+
+					<div class="form__patronymic">
+						<input type="text" id="form-patronymic" name="patronymic" placeholder="Отчество">
+						<label for="form-patronymic"></label>
+					</div>
+				</div>
+
+				<div class="form__phone">
+					<input type="tel" id="form-phone" name="phone" placeholder="Номер телефона">
+					<label for="form-phone">По этому номеру телефона мы свяжемся с вами для подтверждения заказа</label>
+				</div>
+
+				<div class="form__email">
+					<input type="email" id="form-email" name="email" placeholder="E-mail">
+					<label for="form-email">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его
+						отслеживания</label>
+				</div>
+
+				<div class="form__checkbox">
+					<input type="checkbox" id="form-checkbox" name="subscription">
+					<label for="form-checkbox">Подписаться на рассылку новинок и акций</label>
+				</div>
+
+				<h2 class="form__title">Способ оплаты</h2>
+
+				<div class="form__radio-btns">
+					<div class="form__radio">
+						<input type="radio" id="form-radio__one" name="payment method">
+						<label for="form-radio__one">Оплата при получении наличными или картой</label>
+					</div>
+
+					<div class="form__radio">
+						<input type="radio" id="form-radio__two" name="payment method">
+						<label for="form-radio__two">Оплата банковской картой онлайн</label>
+					</div>
+				</div>
+
+
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>

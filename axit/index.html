@@ -21,6 +21,33 @@
 				</a>
 
 				<nav>
+					<div class="burger__wrapper">
+						<input id="burger" type="checkbox">
+						<label for="burger" class="burger">
+							<span class="burger__line"></span>
+						</label>
+						<a href="#" class="burger__logo">
+							<img class="header__logo" src="img/logo.svg" alt="logo">
+						</a>
+						<ul class="burger__menu">
+							<li class="burger__link">
+								<a href="#">features</a>
+							</li>
+							<li class="burger__link">
+								<a href="#">About</a>
+							</li>
+							<li class="burger__link">
+								<a href="#">Pricing</a>
+							</li>
+							<li class="burger__link">
+								<a href="#">Reviews</a>
+							</li>
+							<li class="burger__link">
+								<a href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+
 					<ul class="header__list">
 						<li class="header__link">
 							<a href="#"> features</a>
@@ -57,17 +84,17 @@
 					<div class="form-main__wrapper">
 						<h2 class="form-main__title">Try Your <span>FREE</span> Trial Today</h2>
 						<div class="form-main__name form-main__input">
-							<input type="text" id="main-UserName" name="UserName">
+							<input type="text" id="main-UserName" name="UserName" placeholder=" ">
 							<label for="main-UserName">Name</label>
 						</div>
 
 						<div class="form-main__mail form-main__input">
-							<input type="email" id="main-UserMail" name="UserName">
+							<input type="email" id="main-UserMail" name="UserName" placeholder=" ">
 							<label for="main-UserMail">Email</label>
 						</div>
 
 						<div class="form-main__pasword form-main__input">
-							<input type="password" id="main-UserPassword" name="UserName">
+							<input type="password" id="main-UserPassword" name="UserName" placeholder=" ">
 							<label for="main-UserPassword">Password</label>
 						</div>
 					</div>
@@ -263,9 +290,8 @@
 
 	<section class="customers">
 		<div class="container">
-			<h2 class="customers__title">what our customers are saying</h2>
-			<div class="customers__line"></div>
-			<p class="customers__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<h2 class="customers__title section__title">what our customers are saying</h2>
+			<p class="customers__subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			<div class="customers__columns">
 
 				<div class="customers-column">
@@ -320,7 +346,11 @@
 						</div>
 					</div>
 				</div>
-
+				<div class="customers__pagination">
+					<span></span>
+					<span class="active"></span>
+					<span></span>
+				</div>
 			</div>
 		</div>
 	</section>
