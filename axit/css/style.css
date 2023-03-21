@@ -1099,6 +1099,12 @@ body{
 		width: 80px;
 		height: 80px;
 	}
+	.awesome-item__icon img{
+		width: 95%;
+	}
+	.awesome-item .awesome-item__three img{
+		width: 70%;
+	}
 	.awesome-item__icon{
 		margin-bottom: 62px;
 	}
@@ -1184,6 +1190,9 @@ body{
 		max-width: 183px;
 	}
 
+	.form-main__wrapper{
+		padding: 30px 35px;
+	}
 
 	.tabs__body{
 		justify-content: space-between;
@@ -1213,6 +1222,9 @@ body{
 		align-self: auto;
 		max-width: 100%;
 		width: 80%;
+	}
+	.form-main__wrapper{
+		padding: 30px 50px;
 	}
 	.form-main__title{
 		margin-bottom: 35px;
@@ -1396,6 +1408,13 @@ body{
 	}
 	.header__list{
 		display: none;
+	}
+	.header{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		width: 100%;
 	}
 	.burger__wrapper{
 		display: block;
