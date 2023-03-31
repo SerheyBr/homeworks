@@ -1,0 +1,165 @@
+.citations {
+	min-width: 0;
+	position: relative;
+	&__item {
+		display: flex;
+		align-items: center;
+		background-color: #5C3249;
+	
+	}
+
+	&__img {
+		overflow: hidden;
+		width: 50%;
+		margin-right: 130px;
+		img{
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__body {
+		width: 30%;
+	}
+
+	&__text {
+		font-family: 'Cardo',sans-serif;
+		font-style: italic;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 49px;
+		text-transform: capitalize;
+		color: #FFFFFF;
+		margin-bottom: 15px;
+	}
+
+	&__subtitle {
+		font-style: normal;
+		font-weight: 700;
+		font-size: $small-text;
+		line-height: 15px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+}
+.citations-slider {
+	position: relative;
+	overflow: hidden;
+}
+.swiper-slide {
+}
+.citations .swiper-pagination {
+	position: absolute;
+	bottom: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.citations .swiper-pagination-bullet{
+	border: 1px solid #7E5D6F;
+	background-color: #FFFFFF;
+	width: 14px;
+	height: 14px;
+}
+.citations .swiper-pagination-bullet-active{
+	border: 1px solid #7E5D6F;
+	background-color: #7E5D6F;
+}
+.citations .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin-right: 25px;
+}
+
+
+
+@media(max-width: 1200px){
+	.citations {
+
+
+		&__img {
+			margin-right: 88px;
+		}
+
+		&__text {
+			font-size: 24px;
+		}
+
+		&__subtitle {
+			font-size: 12px;
+			line-height: 32px;
+		}
+}
+
+.citations .swiper-pagination {
+	position: absolute;
+	bottom: -43px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.citations .swiper-pagination-bullet{
+	width: 9.5px;
+	height: 9.5px;
+}
+}
+
+
+@media(max-width: 960px){
+	.citations {
+
+		&__item {
+			flex-direction: column;
+		}
+
+		&__img {
+			margin-right: 0;
+			width: 70%;	
+		}
+
+		&__body {
+			width: 100%;
+			padding: 15px 20px;
+		}
+
+		&__subtitle {
+			line-height: 32px;
+		}
+}
+.citations .swiper-pagination {
+	position: absolute;
+	bottom: -43px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.citations .swiper-pagination-bullet{
+	width: 9.5px;
+	height: 9.5px;
+}
+}
+
+@media(max-width: 700px){
+	.citations {
+
+		&__item {
+			flex-direction: column;
+		}
+
+		&__img {
+			width: 100%;
+			
+		}
+
+		&__body {
+			padding: 15px 20px 95px 20px;
+		}
+}
+.citations .swiper-pagination {
+	position: absolute;
+	bottom: -43px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.citations .swiper-pagination-bullet{
+	width: 9.5px;
+	height: 9.5px;
+}
+}
