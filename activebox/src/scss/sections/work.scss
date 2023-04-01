@@ -3,7 +3,7 @@
 	&__grid {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		// grid-template-rows: 348px;
+		grid-template-rows:  49% 49%;
 	}
 
 	&__item {
@@ -72,6 +72,7 @@
 
 		&__grid {
 			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
 		}
 
 		&__item {

@@ -10,7 +10,7 @@
 
 	&__img {
 		overflow: hidden;
-		width: 50%;
+		width: 49%;
 		margin-right: 130px;
 		img{
 			display: block;
@@ -22,6 +22,7 @@
 
 	&__body {
 		width: 30%;
+		
 	}
 
 	&__text {
@@ -33,6 +34,7 @@
 		text-transform: capitalize;
 		color: #FFFFFF;
 		margin-bottom: 15px;
+		
 	}
 
 	&__subtitle {
@@ -82,6 +84,7 @@
 
 		&__text {
 			font-size: 24px;
+			line-height: 32px;
 		}
 
 		&__subtitle {
@@ -92,7 +95,7 @@
 
 .citations .swiper-pagination {
 	position: absolute;
-	bottom: -43px;
+	bottom: -37px;
 	left: 50%;
 	transform: translateX(-50%);
 }

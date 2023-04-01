@@ -151,6 +151,9 @@ body.active{
 }
 @media(max-width: 1200px) {
 	.header {
+		&__wrapper{
+			margin-bottom: 160px;
+		}
 		&__link {
 			a{
 				width: 112px;

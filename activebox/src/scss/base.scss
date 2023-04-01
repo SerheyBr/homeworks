@@ -78,3 +78,10 @@ body{
 		transform: scale(1.2);
 	}
 }
+
+@media(max-width: 1200px){
+.social-icon{
+	width: 33px;
+	height: 33px;
+}
+}
